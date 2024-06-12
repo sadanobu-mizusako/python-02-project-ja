@@ -106,6 +106,8 @@ class Application(Storage, CommandLineInteraction):
                 pass
             elif command=='5':
                 break
+            else:
+                pass # エラーメッセージを出力
 
 if __name__ == '__main__':
     # システムの起動
