@@ -134,7 +134,7 @@ class Application(Storage, CommandLineInteraction):
                 break
             else:
                 self.show_info("無効なオプションです。再度選択してください。")
-                self.account_signin_up()
+                #self.account_signin_up()
 
     def handle_user_input(self):
         while True:
